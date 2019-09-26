@@ -26,5 +26,6 @@ void inorder(RB *ptr);
 void display(RB *ptr, int level);
 RB *root;
 RB *sentinel;
-
+int find_min(RB *, int *, int *);
+int find_max(RB *, int *, int *);
 #endif
