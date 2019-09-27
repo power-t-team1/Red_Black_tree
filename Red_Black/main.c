@@ -2,7 +2,7 @@
 
 int main()
 {
-	int choice, num, colour, status;
+	int choice, num, colour, status, level;
 	sentinel = (RB *)malloc(sizeof(RB));
 	sentinel->info = -1;
 	sentinel->color = black;
@@ -33,7 +33,8 @@ int main()
 					break;
 
 			case 4:
-					display(root, 1);
+					//display(root, 1);
+					levelorder(root);
 					break;
 
 			case 5:

@@ -26,6 +26,9 @@ void inorder(RB *ptr);
 void display(RB *ptr, int level);
 RB *root;
 RB *sentinel;
+int getTreeHeight(RB *root);
+void levelorder(RB *root);
+void G_level_order(RB *root, int level);
 int find_min(RB *, int *, int *);
 int find_max(RB *, int *, int *);
 #endif
